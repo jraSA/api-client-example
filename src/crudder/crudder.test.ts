@@ -37,4 +37,14 @@ describe('Crudder creation tests', () => {
         const result = await crudderResource.get(params);
         expect(result).toEqual(response);
     });
+
+    it('WHEN I call the crudderResource.getById function THEN should return a valid result', async () => {
+        const response = {
+            foo: 'bar',
+        };
+
+        axios.get = jest.fn().mockResolvedValue({ data: response });
+        const result = await crudderResource.getById('1');
+        expect(result).toEqual(response);
+    });
 });

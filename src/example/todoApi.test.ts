@@ -7,8 +7,9 @@ describe('todoAPI integration tests', () => {
         expect((result as Post[]).length).toEqual(100);
     });
 
-    fit('WHEN I call getPostById THEN should return a valid result', async () => {
+    xit('WHEN I call getPostById THEN should return a valid result', async () => {
         const result = await getPostById('1');
-        expect((result as Post[]).length).toEqual(1);
+        const { id } = result as Post;
+        expect(id).toEqual(1);
     });
 });
