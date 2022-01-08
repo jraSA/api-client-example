@@ -1,7 +1,7 @@
-# core-example-library
+# api-client-example
 
-![CI/CD](https://github.com/jraSA/core-example-library/workflows/core-example-library%20pipeline/badge.svg)
-[![codecov](https://codecov.io/gh/jraSA/core-example-library/branch/master/graph/badge.svg?token=7QFE1W5SDL)](https://codecov.io/gh/jraSA/core-example-library)
+![CI/CD](https://github.com/jraSA/api-client-example/workflows/api-client-example%20pipeline/badge.svg)
+[![codecov](https://codecov.io/gh/jraSA/api-client-example/branch/master/graph/badge.svg?token=7QFE1W5SDL)](https://codecov.io/gh/jraSA/api-client-example)
 ![License](https://img.shields.io/github/license/dyarleniber/react-workflow-gh-actions)
 ## Table of Contents
 
@@ -12,7 +12,7 @@
 
 ## About <a name = "about"></a>
 
-A very simple example of a core library using NodeJS and TypeScript. This could be used as a boilerplate for more complex projects.
+A very simple example of a api client using NodeJS and TypeScript. This could be used as a boilerplate for more complex projects.
 
 
 ## Running tests  <a name = "running_test"></a>
@@ -50,5 +50,5 @@ npm run publish-major
 ## Installing <a name = "installing"></a>
 
 ```
-npm i core-example-library
+npm i api-client-example
 ```
