@@ -1,5 +1,4 @@
 const assert = require('assert');
-//const { myHelloWorldFunction, getAllFriends, Friend } = require('./lib');
+const { crudder } = require('./lib');
 
-// assert.deepStrictEqual(typeof myHelloWorldFunction, 'function');
-// assert.deepStrictEqual(typeof getAllFriends, 'function');
+assert.deepStrictEqual(typeof crudder, 'function');
