@@ -10,7 +10,7 @@
     "test:coverage": "jest --coverage",
     "test:build": "npm run build && node test-build.js",
     "ci": "npm run build && npm run test:build && npm run test:coverage && wait",
-    "build": "tsc -p .",
+    "build": "tsc -p tsconfig-build.json",
     "prepublishOnly": "npm run ci",
     "publish-major": "npm version major && npm publish",
     "publish-minor": "npm version minor && npm publish",
