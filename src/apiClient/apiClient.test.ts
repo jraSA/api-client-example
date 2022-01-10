@@ -1,10 +1,10 @@
 import axios from 'axios';
-import crudder from '.';
+import apiClient from '.';
 
 const domain = 'fake-domain';
 const resource = 'fake-resource';
 
-const baseClient = crudder(domain);
+const baseClient = apiClient(domain);
 const crudderResource = baseClient<FooData>(resource);
 const { get, getById, post, put, delete: deleteResource } = crudderResource;
 

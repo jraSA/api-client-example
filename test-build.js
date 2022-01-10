@@ -1,4 +1,4 @@
 const assert = require('assert');
-const { crudder } = require('./lib');
+const { apiClient } = require('./lib');
 
-assert.deepStrictEqual(typeof crudder, 'function');
+assert.deepStrictEqual(typeof apiClient, 'function');

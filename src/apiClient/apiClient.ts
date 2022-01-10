@@ -16,7 +16,7 @@ const executeAction = async <T>(action: () => Promise<T | AxiosError>): Promise<
     }
 };
 
-const crudder =
+const apiClient =
     (domain: string) =>
     <T>(resource: string): ResourceActions<T> => {
         const url = `${domain}/${resource}`;
@@ -34,4 +34,4 @@ const crudder =
         };
     };
 
-export default crudder;
+export default apiClient;
